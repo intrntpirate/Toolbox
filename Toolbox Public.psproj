@@ -1,5 +1,5 @@
-﻿<Project>
-  <Version>2.0</Version>
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt">
+  <Version>2.1</Version>
   <FileID>c4b05722-aab8-49c0-a439-b266335abefa</FileID>
   <ProjectType>0</ProjectType>
   <Folders />
@@ -7,10 +7,8 @@
     <File Build="0">Startup.pss</File>
     <File Build="0" ReferenceFunction="Show-MainForm_psf">MainForm.psf</File>
     <File Build="0" Shared="True" ReferenceFunction="Invoke-Globals_ps1">Globals.ps1</File>
-    <File Build="0" ReferenceFunction="Show-AddCustomApp_psf">AddCustomApp.psf</File>
-    <File Build="0" ReferenceFunction="Show-Log_psf">Log.psf</File>
+    <File Build="0" ReferenceFunction="Show-AddShortcut_psf">AddShortcut.psf</File>
     <File Build="0" ReferenceFunction="Show-MessageBox_psf">MessageBox.psf</File>
     <File Build="0" ReferenceFunction="Show-ShowCurrentConfig_psf">ShowCurrentConfig.psf</File>
-    <File Build="0" ReferenceFunction="Show-ShowNewStuff_psf">ShowNewStuff.psf</File>
   </Files>
 </Project>
